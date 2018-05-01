@@ -1,0 +1,33 @@
+C:\Users\-\AppData\Local\Temporary Projects\puz\bin\Debug\puz.exe
+C:\Users\-\AppData\Local\Temporary Projects\puz\bin\Debug\puz.pdb
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\puz.Form1.resources
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\puz.Form2.resources
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\puz.Properties.Resources.resources
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\puz.exe
+C:\Users\-\AppData\Local\Temporary Projects\puz\obj\x86\Debug\puz.pdb
+F:\LPOO\puz\puz\obj\x86\Debug\puz.exe
+F:\LPOO\puz\puz\obj\x86\Debug\puz.pdb
+F:\LPOO\puz\puz\obj\x86\Debug\ResolveAssemblyReference.cache
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form1.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form2.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form3.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Properties.Resources.resources
+F:\LPOO\puz\puz\obj\x86\Debug\GenerateResource.read.1.tlog
+F:\LPOO\puz\puz\obj\x86\Debug\GenerateResource.write.1.tlog
+F:\LPOO\puz\puz\bin\Debug\puz.exe
+F:\LPOO\puz\puz\bin\Debug\puz.pdb
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form4.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form5.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form6.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form7.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form10.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form8.resources
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form9.resources
+D:\LPOO\puz\puz\obj\x86\Debug\puz.exe
+D:\LPOO\puz\puz\obj\x86\Debug\puz.pdb
+F:\LPOO\puz\puz\obj\x86\Debug\puz.Form11.resources
+F:\tudo\LPOO\puz\puz\obj\x86\Debug\puz.exe
+F:\tudo\LPOO\puz\puz\obj\x86\Debug\puz.pdb

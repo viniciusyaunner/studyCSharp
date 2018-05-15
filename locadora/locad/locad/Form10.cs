@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Locad
+namespace puz
 {
     public partial class Form10 : Form
     {
@@ -16,21 +16,61 @@ namespace Locad
             InitializeComponent();
         }
 
-        private void Form10_Load(object sender, EventArgs e)
+        private void label4_Click(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'dsLocad.Clientes'. Você pode movê-la ou removê-la conforme necessário.
-            this.ClientesTableAdapter.Fill(this.dsLocad.Clientes);
 
-            this.reportViewer1.RefreshReport();
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength == 6)
+            {
+                if (textBox1.Text == "sonhei")
+                {
+                    textBox2.Focus();
+                }
+                else
+                {
+                    textBox1.Text = "";
+                }
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox2.TextLength == 5)
+            {
+                if (textBox2.Text == "feira")
+                {
+                    textBox3.Focus();
+                }
+                else
+                {
+                    textBox2.Text = "";
+                }
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox3.TextLength == 8)
+            {
+                if (textBox3.Text == "macarrão")
+                {
+                    MessageBox.Show("Parabens!!");
+                }
+                else
+                {
+                    textBox3.Text = "";
+                }
+            }
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Form1 F1 = new Form1();
-            F1.Show();
+            Form1 newform = new Form1();
+            newform.Show();
             Hide();
-            Dispose();
-
         }
     }
 }

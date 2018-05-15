@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Locad
+namespace puz
 {
     public partial class Form3 : Form
     {
@@ -16,47 +16,105 @@ namespace Locad
             InitializeComponent();
         }
 
-        private void locacaoBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void label5_Click(object sender, EventArgs e)
         {
-            this.Validate();
-            this.generosBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsLocad);
 
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox1.TextLength == 2)
+            {
+                if (textBox1.Text == "11")
+                {
+                    textBox21.Focus();
+                }
+                else
+                {
+                    textBox1.Text = "";
+                }
+            }
+        }
+
+        private void textBox21_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox21.TextLength == 2)
+            {
+                if (textBox21.Text == "30")
+                {
+                    textBox2.Focus();
+                }
+                else
+                {
+                    textBox21.Text = "";
+                }
+            }
+        }
+    
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "9")
+            {
+                textBox3.Focus();
+            }
+            else {
+                textBox2.Text = "";
+            }
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox3.TextLength == 2)
+            {
+                if (textBox3.Text == "18")
+                {
+                    textBox4.Focus();
+                }
+                else
+                {
+                    textBox3.Text = "";
+                }
+            }
+        }
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox4.TextLength == 2)
+            {
+                if (textBox4.Text == "30")
+                {
+                    textBox5.Focus();
+                }
+                else
+                {
+                    textBox4.Text = "";
+                }
+            }
+        }
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox5.TextLength == 2)
+            {
+                if (textBox5.Text == "25")
+                {
+                    MessageBox.Show("Parabens!!");
+                }
+                else
+                {
+                    textBox5.Text = "";
+                }
+            }
+        }
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 newform = new Form1();
+            newform.Show();
+            Hide();
         }
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'dsLocad.Generos'. Você pode movê-la ou removê-la conforme necessário.
-            this.generosTableAdapter.Fill(this.dsLocad.Generos);
-            // TODO: esta linha de código carrega dados na tabela 'dsLocad.Generos'. Você pode movê-la ou removê-la conforme necessário.
-            this.generosTableAdapter.Fill(this.dsLocad.Generos);
-            // TODO: esta linha de código carrega dados na tabela 'dsLocad.Locacao'. Você pode movê-la ou removê-la conforme necessário.
-            //this.locacaoTableAdapter.Fill(this.dsLocad.Locacao);
 
         }
 
-        private void emprestimoMaskedTextBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-        private void locacaoBindingNavigator_RefreshItems(object sender, EventArgs e)
-        {
-
-        }
-
-        private void generosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
-        {
-            this.Validate();
-            this.generosBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsLocad);
-
-        }
-
-        private void button1_Click_1(object sender, EventArgs e)
-        {
-            Form1 F1 = new Form1();
-            F1.Show();
-            Hide();
-        }
     }
 }

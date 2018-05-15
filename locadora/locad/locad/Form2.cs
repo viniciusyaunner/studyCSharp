@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Locad
+namespace puz
 {
     public partial class Form2 : Form
     {
@@ -16,71 +16,263 @@ namespace Locad
             InitializeComponent();
         }
 
-        private void clientesBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            this.Validate();
-            this.clientesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsLocad);
-
+            if (textBox1.Text == "C")
+            {
+                textBox2.Focus();
+            }
+            else
+            {
+                textBox1.Text = "";
+            }
         }
 
-        private void clientesBindingNavigatorSaveItem_Click_1(object sender, EventArgs e)
+        private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            this.Validate();
-            this.clientesBindingSource.EndEdit();
-            this.tableAdapterManager.UpdateAll(this.dsLocad);
-
+            if (textBox2.Text == "A")
+            {
+                textBox3.Focus();
+            }
+            else
+            {
+                textBox2.Text = "";
+            }
         }
 
-        private void Form2_Load(object sender, EventArgs e)
+        private void textBox3_TextChanged(object sender, EventArgs e)
         {
-
-            // TODO: esta linha de código carrega dados na tabela 'dsLocad.Clientes'. Você pode movê-la ou removê-la conforme necessário.
-            this.clientesTableAdapter.Fill(this.dsLocad.Clientes);
-            // TODO: esta linha de código carrega dados na tabela 'dsLoja.Clientes'. Você pode movê-la ou removê-la conforme necessário.
-            this.clientesTableAdapter.Fill(this.dsLocad.Clientes);
+            if (textBox3.Text == "V")
+            {
+                textBox4.Focus();
+            }
+            else
+            {
+                textBox3.Text = "";
+            }
         }
 
-        private void voltar_Click(object sender, EventArgs e)
+        private void textBox4_TextChanged(object sender, EventArgs e)
         {
-            Form1 F1 = new Form1();
-            F1.Show();
+            if (textBox4.Text == "A")
+            {
+                textBox5.Focus();
+            }
+            else
+            {
+                textBox4.Text = "";
+            }
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox5.Text == "L")
+            {
+                textBox6.Focus();
+            }
+            else
+            {
+                textBox5.Text = "";
+            }
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox6.Text == "O")
+            {
+                textBox7.Focus();
+            }
+            else
+            {
+                textBox6.Text = "";
+            }
+        }
+
+        private void textBox7_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox7.Text == "C")
+            {
+                textBox8.Focus();
+            }
+            else
+            {
+                textBox7.Text = "";
+            }
+        }
+
+        private void textBox8_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox8.Text == "A")
+            {
+                textBox9.Focus();
+            }
+            else
+            {
+                textBox8.Text = "";
+            }
+        }
+
+        private void textBox9_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox9.Text == "S")
+            {
+                textBox10.Focus();
+            }
+            else
+            {
+                textBox9.Text = "";
+            }
+        }
+
+        private void textBox10_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox10.Text == "A")
+            {
+                textBox11.Focus();
+            }
+            else
+            {
+                textBox10.Text = "";
+            }
+        }
+
+        private void textBox11_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox11.Text == "P")
+            {
+                textBox12.Focus();
+            }
+            else
+            {
+                textBox11.Text = "";
+            }
+        }
+
+        private void textBox12_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox12.Text == "I")
+            {
+                textBox13.Focus();
+            }
+            else
+            {
+                textBox12.Text = "";
+            }
+        }
+
+        private void textBox13_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox13.Text == "P")
+            {
+                textBox14.Focus();
+            }
+            else
+            {
+                textBox13.Text = "";
+            }
+        }
+
+        private void textBox14_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox14.Text == "A")
+            {
+                textBox15.Focus();
+            }
+            else
+            {
+                textBox14.Text = "";
+            }
+        }
+
+        private void textBox15_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox15.Text == "O")
+            {
+                textBox16.Focus();
+            }
+            else
+            {
+                textBox15.Text = "";
+            }
+        }
+
+        private void textBox16_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox16.Text == "L")
+            {
+                textBox17.Focus();
+            }
+            else
+            {
+                textBox15.Text = "";
+            }
+        }
+
+        private void textBox17_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox17.Text == "H") 
+            {
+                textBox18.Focus();
+            }
+            else
+            {
+                textBox17.Text = "";
+            }
+        }
+
+        private void textBox18_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox18.Text == "O")
+            {
+                textBox19.Focus();
+            }
+            else
+            {
+                textBox18.Text = "";
+            }
+        }
+
+        private void textBox19_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox19.Text == "R")
+            {
+                textBox20.Focus();
+            }
+            else
+            {
+                textBox19.Text = "";
+            }
+        }
+
+        private void textBox20_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox20.Text == "E")
+            {
+                textBox21.Focus();
+            }
+            else
+            {
+                textBox20.Text = "";
+            }
+        }
+
+        private void textBox21_TextChanged(object sender, EventArgs e)
+        {
+            if (textBox21.Text == "I")
+            {
+                MessageBox.Show("Parabens!!");
+            }
+            else
+            {
+                textBox21.Text = "";
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 newform = new Form1();
+            newform.Show();
             Hide();
-        }
-
-        private void cEPMaskedTextBox_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void cEPMaskedTextBox_MaskInputRejected_1(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void bairroTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void bairroLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void nomeLabel_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void codigoTextBox_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void codigoTextBox_TextChanged_1(object sender, EventArgs e)
-        {
-
         }
     }
 }

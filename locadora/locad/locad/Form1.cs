@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Locad
+namespace puz
 {
     public partial class Form1 : Form
     {
@@ -16,110 +16,79 @@ namespace Locad
             InitializeComponent();
         }
 
-        private void cadastroToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form2 F2 = new Form2();
-            F2.Show();
-            Hide();
-        }
-
-        private void generoToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 F3 = new Form3();
-            F3.Show();
-            Hide();
-        }
-
-        private void sairToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
 
-        private void fitasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            Form4 F4 = new Form4();
-            F4.Show();
+            Form2 newform = new Form2();
+            newform.Show();
             Hide();
         }
 
-        private void locaçãoFitasToolStripMenuItem_Click(object sender, EventArgs e)
+        private void button3_Click(object sender, EventArgs e)
         {
-            Form5 F5 = new Form5();
-            F5.Show();
+            Form3 newform = new Form3();
+            newform.Show();
             Hide();
         }
 
-        private void clientesToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void button2_Click(object sender, EventArgs e)
         {
-            Form6 F6 = new Form6();
-            F6.Show();
+            Form4 newform = new Form4();
+            newform.Show();
             Hide();
         }
 
-        private void generoToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
-            Form7 F7 = new Form7();
-            F7.Show();
+            Form5 newform = new Form5();
+            newform.Show();
             Hide();
         }
 
-        private void fitasToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void button6_Click(object sender, EventArgs e)
         {
-            Form8 F8 = new Form8();
-            F8.Show();
+            Form6 newform = new Form6();
+            newform.Show();
             Hide();
         }
 
-        private void locaçãoToolStripMenuItem1_Click(object sender, EventArgs e)
+        private void button7_Click(object sender, EventArgs e)
         {
-            Form9 F9 = new Form9();
-            F9.Show();
+            Form7 newform = new Form7();
+            newform.Show();
             Hide();
         }
 
-        private void clientesToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void button9_Click(object sender, EventArgs e)
         {
-            Form10 F10 = new Form10();
-            F10.Show();
+            Form9 newform = new Form9();
+            newform.Show();
             Hide();
         }
 
-        private void fitasToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void button8_Click(object sender, EventArgs e)
         {
-            Form11 F11 = new Form11();
-            F11.Show();
+            Form8 newform = new Form8();
+            newform.Show();
             Hide();
-            Dispose();
-
         }
 
-        private void generoToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void button10_Click(object sender, EventArgs e)
         {
-            Form12 F12 = new Form12();
-            F12.Show();
+            Form10 newform = new Form10();
+            newform.Show();
             Hide();
-            Dispose();
         }
 
-        private void locaçãoToolStripMenuItem2_Click(object sender, EventArgs e)
+        private void button11_Click(object sender, EventArgs e)
         {
-            Form13 F13 = new Form13();
-            F13.Show();
+            Form11 newform = new Form11();
+            newform.Show();
             Hide();
-            Dispose();
-        }
-
-        private void locaçãoDeFitasToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form14 F14 = new Form14();
-            F14.Show();
-            Hide();
-            Dispose();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace Locad
+﻿namespace puz
 {
     partial class Form1
     {
@@ -28,204 +28,219 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.generoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.fitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçãoFitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.consultaClientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.generoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.fitasToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçãoToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.relatorioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.clientesToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.fitasToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.generoToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçãoToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
-            this.locaçãoDeFitasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.menuStrip1.SuspendLayout();
+            this.label1 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button6 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
+            this.button8 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
+            this.button11 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // menuStrip1
+            // label1
             // 
-            this.menuStrip1.BackColor = System.Drawing.Color.FloralWhite;
-            this.menuStrip1.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.cadastroToolStripMenuItem,
-            this.locaçãoToolStripMenuItem,
-            this.consultaClientesToolStripMenuItem,
-            this.relatorioToolStripMenuItem,
-            this.sairToolStripMenuItem});
-            this.menuStrip1.Location = new System.Drawing.Point(0, 0);
-            this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(574, 27);
-            this.menuStrip1.TabIndex = 0;
-            this.menuStrip1.Text = "menuStrip1";
+            this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
+            this.label1.Font = new System.Drawing.Font("OCR A Extended", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
+            this.label1.Location = new System.Drawing.Point(182, 52);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(376, 35);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Selecione um Jogo!!";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // cadastroToolStripMenuItem
+            // button1
             // 
-            this.cadastroToolStripMenuItem.BackColor = System.Drawing.Color.Transparent;
-            this.cadastroToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem,
-            this.generoToolStripMenuItem,
-            this.fitasToolStripMenuItem});
-            this.cadastroToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.cadastroToolStripMenuItem.Name = "cadastroToolStripMenuItem";
-            this.cadastroToolStripMenuItem.Size = new System.Drawing.Size(92, 21);
-            this.cadastroToolStripMenuItem.Text = "Cadastro";
-            this.cadastroToolStripMenuItem.Click += new System.EventHandler(this.cadastroToolStripMenuItem_Click);
+            this.button1.BackColor = System.Drawing.Color.Transparent;
+            this.button1.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button1.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button1.Location = new System.Drawing.Point(222, 166);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(112, 43);
+            this.button1.TabIndex = 1;
+            this.button1.Text = "Cruzadinha";
+            this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // clientesToolStripMenuItem
+            // button2
             // 
-            this.clientesToolStripMenuItem.Name = "clientesToolStripMenuItem";
-            this.clientesToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.clientesToolStripMenuItem.Text = "Clientes";
-            this.clientesToolStripMenuItem.Click += new System.EventHandler(this.clientesToolStripMenuItem_Click);
+            this.button2.BackColor = System.Drawing.Color.Transparent;
+            this.button2.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button2.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button2.Location = new System.Drawing.Point(222, 292);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(112, 43);
+            this.button2.TabIndex = 2;
+            this.button2.Text = "O que é?";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // generoToolStripMenuItem
+            // button3
             // 
-            this.generoToolStripMenuItem.Name = "generoToolStripMenuItem";
-            this.generoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.generoToolStripMenuItem.Text = "Genero";
-            this.generoToolStripMenuItem.Click += new System.EventHandler(this.generoToolStripMenuItem_Click);
+            this.button3.BackColor = System.Drawing.Color.Transparent;
+            this.button3.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button3.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button3.Location = new System.Drawing.Point(222, 231);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(112, 43);
+            this.button3.TabIndex = 3;
+            this.button3.Text = "Calcule";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // fitasToolStripMenuItem
+            // button4
             // 
-            this.fitasToolStripMenuItem.Name = "fitasToolStripMenuItem";
-            this.fitasToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.fitasToolStripMenuItem.Text = "Fitas";
-            this.fitasToolStripMenuItem.Click += new System.EventHandler(this.fitasToolStripMenuItem_Click);
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button4.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button4.Location = new System.Drawing.Point(639, 515);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(86, 34);
+            this.button4.TabIndex = 4;
+            this.button4.Text = "Sair";
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // locaçãoToolStripMenuItem
+            // button5
             // 
-            this.locaçãoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.locaçãoFitasToolStripMenuItem});
-            this.locaçãoToolStripMenuItem.Name = "locaçãoToolStripMenuItem";
-            this.locaçãoToolStripMenuItem.Size = new System.Drawing.Size(83, 21);
-            this.locaçãoToolStripMenuItem.Text = "Locação";
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button5.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button5.Location = new System.Drawing.Point(222, 355);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(112, 43);
+            this.button5.TabIndex = 5;
+            this.button5.Text = "Desembaralhe";
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
-            // locaçãoFitasToolStripMenuItem
+            // button6
             // 
-            this.locaçãoFitasToolStripMenuItem.BackgroundImage = global::Locad.Properties.Resources.tools;
-            this.locaçãoFitasToolStripMenuItem.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.locaçãoFitasToolStripMenuItem.Name = "locaçãoFitasToolStripMenuItem";
-            this.locaçãoFitasToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
-            this.locaçãoFitasToolStripMenuItem.Text = "Locação Fitas";
-            this.locaçãoFitasToolStripMenuItem.Click += new System.EventHandler(this.locaçãoFitasToolStripMenuItem_Click);
+            this.button6.BackColor = System.Drawing.Color.Transparent;
+            this.button6.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button6.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button6.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button6.Location = new System.Drawing.Point(222, 415);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(112, 43);
+            this.button6.TabIndex = 6;
+            this.button6.Text = "Subtração";
+            this.button6.UseVisualStyleBackColor = false;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // consultaClientesToolStripMenuItem
+            // button7
             // 
-            this.consultaClientesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem1,
-            this.generoToolStripMenuItem1,
-            this.fitasToolStripMenuItem1,
-            this.locaçãoToolStripMenuItem1});
-            this.consultaClientesToolStripMenuItem.Name = "consultaClientesToolStripMenuItem";
-            this.consultaClientesToolStripMenuItem.Size = new System.Drawing.Size(92, 21);
-            this.consultaClientesToolStripMenuItem.Text = "Consulta";
+            this.button7.BackColor = System.Drawing.Color.Transparent;
+            this.button7.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button7.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button7.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button7.Location = new System.Drawing.Point(434, 166);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(106, 43);
+            this.button7.TabIndex = 7;
+            this.button7.Text = "Multiplicação";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
-            // clientesToolStripMenuItem1
+            // button8
             // 
-            this.clientesToolStripMenuItem1.Name = "clientesToolStripMenuItem1";
-            this.clientesToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
-            this.clientesToolStripMenuItem1.Text = "Clientes";
-            this.clientesToolStripMenuItem1.Click += new System.EventHandler(this.clientesToolStripMenuItem1_Click);
+            this.button8.BackColor = System.Drawing.Color.Transparent;
+            this.button8.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button8.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button8.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button8.Location = new System.Drawing.Point(434, 231);
+            this.button8.Name = "button8";
+            this.button8.Size = new System.Drawing.Size(106, 43);
+            this.button8.TabIndex = 8;
+            this.button8.Text = "Divisão";
+            this.button8.UseVisualStyleBackColor = false;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
-            // generoToolStripMenuItem1
+            // button9
             // 
-            this.generoToolStripMenuItem1.Name = "generoToolStripMenuItem1";
-            this.generoToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
-            this.generoToolStripMenuItem1.Text = "Genero";
-            this.generoToolStripMenuItem1.Click += new System.EventHandler(this.generoToolStripMenuItem1_Click);
+            this.button9.BackColor = System.Drawing.Color.Transparent;
+            this.button9.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button9.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button9.Location = new System.Drawing.Point(434, 292);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(106, 43);
+            this.button9.TabIndex = 9;
+            this.button9.Text = "Problemas";
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.button9_Click);
             // 
-            // fitasToolStripMenuItem1
+            // button10
             // 
-            this.fitasToolStripMenuItem1.Name = "fitasToolStripMenuItem1";
-            this.fitasToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
-            this.fitasToolStripMenuItem1.Text = "Fitas";
-            this.fitasToolStripMenuItem1.Click += new System.EventHandler(this.fitasToolStripMenuItem1_Click);
+            this.button10.BackColor = System.Drawing.Color.Transparent;
+            this.button10.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button10.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button10.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button10.Location = new System.Drawing.Point(434, 355);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(106, 43);
+            this.button10.TabIndex = 10;
+            this.button10.Text = "Complete";
+            this.button10.UseVisualStyleBackColor = false;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
-            // locaçãoToolStripMenuItem1
+            // button11
             // 
-            this.locaçãoToolStripMenuItem1.Name = "locaçãoToolStripMenuItem1";
-            this.locaçãoToolStripMenuItem1.Size = new System.Drawing.Size(148, 22);
-            this.locaçãoToolStripMenuItem1.Text = "Locação";
-            this.locaçãoToolStripMenuItem1.Click += new System.EventHandler(this.locaçãoToolStripMenuItem1_Click);
-            // 
-            // relatorioToolStripMenuItem
-            // 
-            this.relatorioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.clientesToolStripMenuItem2,
-            this.fitasToolStripMenuItem2,
-            this.generoToolStripMenuItem2,
-            this.locaçãoToolStripMenuItem2,
-            this.locaçãoDeFitasToolStripMenuItem});
-            this.relatorioToolStripMenuItem.Name = "relatorioToolStripMenuItem";
-            this.relatorioToolStripMenuItem.Size = new System.Drawing.Size(101, 21);
-            this.relatorioToolStripMenuItem.Text = "Relatorio";
-            // 
-            // clientesToolStripMenuItem2
-            // 
-            this.clientesToolStripMenuItem2.Name = "clientesToolStripMenuItem2";
-            this.clientesToolStripMenuItem2.Size = new System.Drawing.Size(220, 22);
-            this.clientesToolStripMenuItem2.Text = "Clientes";
-            this.clientesToolStripMenuItem2.Click += new System.EventHandler(this.clientesToolStripMenuItem2_Click);
-            // 
-            // fitasToolStripMenuItem2
-            // 
-            this.fitasToolStripMenuItem2.Name = "fitasToolStripMenuItem2";
-            this.fitasToolStripMenuItem2.Size = new System.Drawing.Size(220, 22);
-            this.fitasToolStripMenuItem2.Text = "fitas";
-            this.fitasToolStripMenuItem2.Click += new System.EventHandler(this.fitasToolStripMenuItem2_Click);
-            // 
-            // generoToolStripMenuItem2
-            // 
-            this.generoToolStripMenuItem2.Name = "generoToolStripMenuItem2";
-            this.generoToolStripMenuItem2.Size = new System.Drawing.Size(220, 22);
-            this.generoToolStripMenuItem2.Text = "genero";
-            this.generoToolStripMenuItem2.Click += new System.EventHandler(this.generoToolStripMenuItem2_Click);
-            // 
-            // locaçãoToolStripMenuItem2
-            // 
-            this.locaçãoToolStripMenuItem2.Name = "locaçãoToolStripMenuItem2";
-            this.locaçãoToolStripMenuItem2.Size = new System.Drawing.Size(220, 22);
-            this.locaçãoToolStripMenuItem2.Text = "locação";
-            this.locaçãoToolStripMenuItem2.Click += new System.EventHandler(this.locaçãoToolStripMenuItem2_Click);
-            // 
-            // locaçãoDeFitasToolStripMenuItem
-            // 
-            this.locaçãoDeFitasToolStripMenuItem.Name = "locaçãoDeFitasToolStripMenuItem";
-            this.locaçãoDeFitasToolStripMenuItem.Size = new System.Drawing.Size(220, 22);
-            this.locaçãoDeFitasToolStripMenuItem.Text = "locação de fitas";
-            this.locaçãoDeFitasToolStripMenuItem.Click += new System.EventHandler(this.locaçãoDeFitasToolStripMenuItem_Click);
-            // 
-            // sairToolStripMenuItem
-            // 
-            this.sairToolStripMenuItem.Name = "sairToolStripMenuItem";
-            this.sairToolStripMenuItem.Size = new System.Drawing.Size(56, 21);
-            this.sairToolStripMenuItem.Text = "Sair";
-            this.sairToolStripMenuItem.Click += new System.EventHandler(this.sairToolStripMenuItem_Click);
+            this.button11.BackColor = System.Drawing.Color.Transparent;
+            this.button11.BackgroundImage = global::puz.Properties.Resources.bu;
+            this.button11.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.button11.Font = new System.Drawing.Font("Franklin Gothic Book", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button11.ForeColor = System.Drawing.Color.BlueViolet;
+            this.button11.Location = new System.Drawing.Point(434, 415);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(106, 43);
+            this.button11.TabIndex = 11;
+            this.button11.Text = "Qual é a palavra?";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Locad.Properties.Resources.tools;
+            this.BackgroundImage = global::puz.Properties.Resources._210240_popular_vaporwave_wallpaper_1920x1080_1920x1080_cell_phone;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(574, 432);
-            this.Controls.Add(this.menuStrip1);
-            this.Font = new System.Drawing.Font("OCR A Extended", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.MainMenuStrip = this.menuStrip1;
-            this.Margin = new System.Windows.Forms.Padding(4);
+            this.ClientSize = new System.Drawing.Size(772, 578);
+            this.Controls.Add(this.button11);
+            this.Controls.Add(this.button10);
+            this.Controls.Add(this.button9);
+            this.Controls.Add(this.button8);
+            this.Controls.Add(this.button7);
+            this.Controls.Add(this.button6);
+            this.Controls.Add(this.button5);
+            this.Controls.Add(this.button4);
+            this.Controls.Add(this.button3);
+            this.Controls.Add(this.button2);
+            this.Controls.Add(this.button1);
+            this.Controls.Add(this.label1);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.menuStrip1.ResumeLayout(false);
-            this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -233,25 +248,18 @@
 
         #endregion
 
-        private System.Windows.Forms.MenuStrip menuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem generoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem fitasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem locaçãoToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem locaçãoFitasToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem consultaClientesToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem generoToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem fitasToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem locaçãoToolStripMenuItem1;
-        private System.Windows.Forms.ToolStripMenuItem relatorioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem clientesToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem fitasToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem generoToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem locaçãoToolStripMenuItem2;
-        private System.Windows.Forms.ToolStripMenuItem locaçãoDeFitasToolStripMenuItem;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button button8;
+        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
+        private System.Windows.Forms.Button button11;
     }
 }
 

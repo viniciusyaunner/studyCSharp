@@ -29,63 +29,90 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
             System.Windows.Forms.Label controleLabel;
-            System.Windows.Forms.Label codusLabel;
             System.Windows.Forms.Label dataemprestLabel;
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form4));
+            System.Windows.Forms.Label codusLabel;
             this.bibliotecaDataSet = new WindowsFormsApplication1.bibliotecaDataSet();
             this.emprestimoBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.emprestimoTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.EmprestimoTableAdapter();
             this.tableAdapterManager = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.TableAdapterManager();
+            this.devolverliTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.devolverliTableAdapter();
+            this.empreliTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.empreliTableAdapter();
+            this.livrosTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.LivrosTableAdapter();
             this.emprestimoBindingNavigator = new System.Windows.Forms.BindingNavigator(this.components);
+            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
+            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
+            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMovePreviousItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorPositionItem = new System.Windows.Forms.ToolStripTextBox();
-            this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorSeparator1 = new System.Windows.Forms.ToolStripSeparator();
             this.bindingNavigatorMoveNextItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorMoveLastItem = new System.Windows.Forms.ToolStripButton();
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.bindingNavigatorAddNewItem = new System.Windows.Forms.ToolStripButton();
-            this.bindingNavigatorDeleteItem = new System.Windows.Forms.ToolStripButton();
             this.emprestimoBindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.controleTextBox = new System.Windows.Forms.TextBox();
-            this.codusTextBox = new System.Windows.Forms.TextBox();
             this.dataemprestDateTimePicker = new System.Windows.Forms.DateTimePicker();
-            this.empreliTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.empreliTableAdapter();
             this.empreliDataGridView = new System.Windows.Forms.DataGridView();
-            this.button1 = new System.Windows.Forms.Button();
+            this.livrosdevolverliBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.livrosBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.empreliBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.button1 = new System.Windows.Forms.Button();
             this.devolverliBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.devolverliTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.devolverliTableAdapter();
             this.devolverliDataGridView = new System.Windows.Forms.DataGridView();
+            this.button2 = new System.Windows.Forms.Button();
+            this.usuarioBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.usuarioTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.UsuarioTableAdapter();
+            this.livrosBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.livrosBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
+            this.codusListBox = new System.Windows.Forms.ListBox();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn8 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.livrosBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.livrosTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.LivrosTableAdapter();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewComboBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             controleLabel = new System.Windows.Forms.Label();
-            codusLabel = new System.Windows.Forms.Label();
             dataemprestLabel = new System.Windows.Forms.Label();
+            codusLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.bibliotecaDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emprestimoBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.emprestimoBindingNavigator)).BeginInit();
             this.emprestimoBindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empreliDataGridView)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosdevolverliBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.empreliBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.devolverliBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.devolverliDataGridView)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource2)).BeginInit();
             this.SuspendLayout();
+            // 
+            // controleLabel
+            // 
+            controleLabel.AutoSize = true;
+            controleLabel.Location = new System.Drawing.Point(65, 59);
+            controleLabel.Name = "controleLabel";
+            controleLabel.Size = new System.Drawing.Size(48, 13);
+            controleLabel.TabIndex = 1;
+            controleLabel.Text = "controle:";
+            // 
+            // dataemprestLabel
+            // 
+            dataemprestLabel.AutoSize = true;
+            dataemprestLabel.Location = new System.Drawing.Point(65, 112);
+            dataemprestLabel.Name = "dataemprestLabel";
+            dataemprestLabel.Size = new System.Drawing.Size(68, 13);
+            dataemprestLabel.TabIndex = 5;
+            dataemprestLabel.Text = "dataemprest:";
             // 
             // bibliotecaDataSet
             // 
@@ -110,6 +137,18 @@
             this.tableAdapterManager.LivrosTableAdapter = this.livrosTableAdapter;
             this.tableAdapterManager.UpdateOrder = WindowsFormsApplication1.bibliotecaDataSetTableAdapters.TableAdapterManager.UpdateOrderOption.InsertUpdateDelete;
             this.tableAdapterManager.UsuarioTableAdapter = null;
+            // 
+            // devolverliTableAdapter
+            // 
+            this.devolverliTableAdapter.ClearBeforeFill = true;
+            // 
+            // empreliTableAdapter
+            // 
+            this.empreliTableAdapter.ClearBeforeFill = true;
+            // 
+            // livrosTableAdapter
+            // 
+            this.livrosTableAdapter.ClearBeforeFill = true;
             // 
             // emprestimoBindingNavigator
             // 
@@ -140,6 +179,31 @@
             this.emprestimoBindingNavigator.Size = new System.Drawing.Size(836, 25);
             this.emprestimoBindingNavigator.TabIndex = 0;
             this.emprestimoBindingNavigator.Text = "bindingNavigator1";
+            // 
+            // bindingNavigatorAddNewItem
+            // 
+            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
+            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
+            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorAddNewItem.Text = "Adicionar novo";
+            // 
+            // bindingNavigatorCountItem
+            // 
+            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
+            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
+            this.bindingNavigatorCountItem.Text = "de {0}";
+            this.bindingNavigatorCountItem.ToolTipText = "Número total de itens";
+            // 
+            // bindingNavigatorDeleteItem
+            // 
+            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
+            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
+            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
+            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
+            this.bindingNavigatorDeleteItem.Text = "Excluir";
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -173,16 +237,9 @@
             this.bindingNavigatorPositionItem.Text = "0";
             this.bindingNavigatorPositionItem.ToolTipText = "Posição atual";
             // 
-            // bindingNavigatorCountItem
-            // 
-            this.bindingNavigatorCountItem.Name = "bindingNavigatorCountItem";
-            this.bindingNavigatorCountItem.Size = new System.Drawing.Size(37, 22);
-            this.bindingNavigatorCountItem.Text = "de {0}";
-            this.bindingNavigatorCountItem.ToolTipText = "Número total de itens";
-            // 
             // bindingNavigatorSeparator1
             // 
-            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator1.Name = "bindingNavigatorSeparator1";
             this.bindingNavigatorSeparator1.Size = new System.Drawing.Size(6, 25);
             // 
             // bindingNavigatorMoveNextItem
@@ -205,26 +262,8 @@
             // 
             // bindingNavigatorSeparator2
             // 
-            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator";
+            this.bindingNavigatorSeparator2.Name = "bindingNavigatorSeparator2";
             this.bindingNavigatorSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // bindingNavigatorAddNewItem
-            // 
-            this.bindingNavigatorAddNewItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorAddNewItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorAddNewItem.Image")));
-            this.bindingNavigatorAddNewItem.Name = "bindingNavigatorAddNewItem";
-            this.bindingNavigatorAddNewItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorAddNewItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorAddNewItem.Text = "Adicionar novo";
-            // 
-            // bindingNavigatorDeleteItem
-            // 
-            this.bindingNavigatorDeleteItem.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.bindingNavigatorDeleteItem.Image = ((System.Drawing.Image)(resources.GetObject("bindingNavigatorDeleteItem.Image")));
-            this.bindingNavigatorDeleteItem.Name = "bindingNavigatorDeleteItem";
-            this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
-            this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
-            this.bindingNavigatorDeleteItem.Text = "Excluir";
             // 
             // emprestimoBindingNavigatorSaveItem
             // 
@@ -235,15 +274,6 @@
             this.emprestimoBindingNavigatorSaveItem.Text = "Salvar Dados";
             this.emprestimoBindingNavigatorSaveItem.Click += new System.EventHandler(this.emprestimoBindingNavigatorSaveItem_Click_1);
             // 
-            // controleLabel
-            // 
-            controleLabel.AutoSize = true;
-            controleLabel.Location = new System.Drawing.Point(65, 59);
-            controleLabel.Name = "controleLabel";
-            controleLabel.Size = new System.Drawing.Size(48, 13);
-            controleLabel.TabIndex = 1;
-            controleLabel.Text = "controle:";
-            // 
             // controleTextBox
             // 
             this.controleTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.emprestimoBindingSource, "controle", true));
@@ -252,32 +282,6 @@
             this.controleTextBox.Size = new System.Drawing.Size(200, 20);
             this.controleTextBox.TabIndex = 2;
             // 
-            // codusLabel
-            // 
-            codusLabel.AutoSize = true;
-            codusLabel.Location = new System.Drawing.Point(65, 85);
-            codusLabel.Name = "codusLabel";
-            codusLabel.Size = new System.Drawing.Size(39, 13);
-            codusLabel.TabIndex = 3;
-            codusLabel.Text = "codus:";
-            // 
-            // codusTextBox
-            // 
-            this.codusTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.emprestimoBindingSource, "codus", true));
-            this.codusTextBox.Location = new System.Drawing.Point(139, 82);
-            this.codusTextBox.Name = "codusTextBox";
-            this.codusTextBox.Size = new System.Drawing.Size(200, 20);
-            this.codusTextBox.TabIndex = 4;
-            // 
-            // dataemprestLabel
-            // 
-            dataemprestLabel.AutoSize = true;
-            dataemprestLabel.Location = new System.Drawing.Point(65, 112);
-            dataemprestLabel.Name = "dataemprestLabel";
-            dataemprestLabel.Size = new System.Drawing.Size(68, 13);
-            dataemprestLabel.TabIndex = 5;
-            dataemprestLabel.Text = "dataemprest:";
-            // 
             // dataemprestDateTimePicker
             // 
             this.dataemprestDateTimePicker.DataBindings.Add(new System.Windows.Forms.Binding("Value", this.emprestimoBindingSource, "dataemprest", true));
@@ -285,10 +289,6 @@
             this.dataemprestDateTimePicker.Name = "dataemprestDateTimePicker";
             this.dataemprestDateTimePicker.Size = new System.Drawing.Size(200, 20);
             this.dataemprestDateTimePicker.TabIndex = 6;
-            // 
-            // empreliTableAdapter
-            // 
-            this.empreliTableAdapter.ClearBeforeFill = true;
             // 
             // empreliDataGridView
             // 
@@ -305,6 +305,21 @@
             this.empreliDataGridView.TabIndex = 7;
             this.empreliDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.empreliDataGridView_CellContentClick);
             // 
+            // livrosdevolverliBindingSource
+            // 
+            this.livrosdevolverliBindingSource.DataMember = "Livrosdevolverli";
+            this.livrosdevolverliBindingSource.DataSource = this.livrosBindingSource;
+            // 
+            // livrosBindingSource
+            // 
+            this.livrosBindingSource.DataMember = "Livros";
+            this.livrosBindingSource.DataSource = this.bibliotecaDataSet;
+            // 
+            // empreliBindingSource
+            // 
+            this.empreliBindingSource.DataMember = "Emprestimoempreli";
+            this.empreliBindingSource.DataSource = this.emprestimoBindingSource;
+            // 
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(446, 193);
@@ -315,19 +330,10 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // empreliBindingSource
-            // 
-            this.empreliBindingSource.DataMember = "Emprestimoempreli";
-            this.empreliBindingSource.DataSource = this.emprestimoBindingSource;
-            // 
             // devolverliBindingSource
             // 
             this.devolverliBindingSource.DataMember = "Emprestimodevolverli";
             this.devolverliBindingSource.DataSource = this.emprestimoBindingSource;
-            // 
-            // devolverliTableAdapter
-            // 
-            this.devolverliTableAdapter.ClearBeforeFill = true;
             // 
             // devolverliDataGridView
             // 
@@ -341,10 +347,96 @@
             this.dataGridViewTextBoxColumn7,
             this.dataGridViewTextBoxColumn8});
             this.devolverliDataGridView.DataSource = this.devolverliBindingSource;
-            this.devolverliDataGridView.Location = new System.Drawing.Point(28, 297);
+            this.devolverliDataGridView.Location = new System.Drawing.Point(12, 271);
             this.devolverliDataGridView.Name = "devolverliDataGridView";
             this.devolverliDataGridView.Size = new System.Drawing.Size(645, 124);
             this.devolverliDataGridView.TabIndex = 9;
+            this.devolverliDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.devolverliDataGridView_CellContentClick);
+            this.devolverliDataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.devolverliDataGridView_CellFormatting);
+            this.devolverliDataGridView.CellValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.devolverliDataGridView_CellValidated);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(710, 366);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Salvar";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // usuarioBindingSource
+            // 
+            this.usuarioBindingSource.DataMember = "Usuario";
+            this.usuarioBindingSource.DataSource = this.bibliotecaDataSet;
+            // 
+            // usuarioTableAdapter
+            // 
+            this.usuarioTableAdapter.ClearBeforeFill = true;
+            // 
+            // livrosBindingSource1
+            // 
+            this.livrosBindingSource1.DataMember = "Livros";
+            this.livrosBindingSource1.DataSource = this.bibliotecaDataSet;
+            // 
+            // livrosBindingSource2
+            // 
+            this.livrosBindingSource2.DataMember = "Livros";
+            this.livrosBindingSource2.DataSource = this.bibliotecaDataSet;
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "controle";
+            this.dataGridViewTextBoxColumn1.HeaderText = "controle";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "codli";
+            this.dataGridViewTextBoxColumn2.DataSource = this.livrosBindingSource;
+            this.dataGridViewTextBoxColumn2.DisplayMember = "titulo";
+            this.dataGridViewTextBoxColumn2.HeaderText = "codli";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            this.dataGridViewTextBoxColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn2.ValueMember = "codlivro";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "datadev";
+            this.dataGridViewTextBoxColumn3.HeaderText = "datadev";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(663, 56);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 13;
+            this.button3.Text = "Voltar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click_1);
+            // 
+            // codusLabel
+            // 
+            codusLabel.AutoSize = true;
+            codusLabel.Location = new System.Drawing.Point(363, 44);
+            codusLabel.Name = "codusLabel";
+            codusLabel.Size = new System.Drawing.Size(39, 13);
+            codusLabel.TabIndex = 13;
+            codusLabel.Text = "codus:";
+            // 
+            // codusListBox
+            // 
+            this.codusListBox.DataBindings.Add(new System.Windows.Forms.Binding("SelectedValue", this.emprestimoBindingSource, "codus", true));
+            this.codusListBox.DataSource = this.usuarioBindingSource;
+            this.codusListBox.DisplayMember = "nome";
+            this.codusListBox.FormattingEnabled = true;
+            this.codusListBox.Location = new System.Drawing.Point(408, 44);
+            this.codusListBox.Name = "codusListBox";
+            this.codusListBox.Size = new System.Drawing.Size(120, 95);
+            this.codusListBox.TabIndex = 14;
+            this.codusListBox.ValueMember = "codigo";
             // 
             // dataGridViewTextBoxColumn4
             // 
@@ -355,8 +447,13 @@
             // dataGridViewTextBoxColumn5
             // 
             this.dataGridViewTextBoxColumn5.DataPropertyName = "codli";
+            this.dataGridViewTextBoxColumn5.DataSource = this.livrosBindingSource1;
+            this.dataGridViewTextBoxColumn5.DisplayMember = "titulo";
             this.dataGridViewTextBoxColumn5.HeaderText = "codli";
             this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn5.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridViewTextBoxColumn5.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.dataGridViewTextBoxColumn5.ValueMember = "codli";
             // 
             // dataGridViewCheckBoxColumn1
             // 
@@ -382,63 +479,13 @@
             this.dataGridViewTextBoxColumn8.HeaderText = "valortotal";
             this.dataGridViewTextBoxColumn8.Name = "dataGridViewTextBoxColumn8";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(696, 350);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(630, 54);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Voltar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
-            // livrosBindingSource
-            // 
-            this.livrosBindingSource.DataMember = "Livros";
-            this.livrosBindingSource.DataSource = this.bibliotecaDataSet;
-            // 
-            // livrosTableAdapter
-            // 
-            this.livrosTableAdapter.ClearBeforeFill = true;
-            // 
-            // dataGridViewTextBoxColumn1
-            // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "controle";
-            this.dataGridViewTextBoxColumn1.HeaderText = "controle";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "codli";
-            this.dataGridViewTextBoxColumn2.DataSource = this.livrosBindingSource;
-            this.dataGridViewTextBoxColumn2.DisplayMember = "titulo";
-            this.dataGridViewTextBoxColumn2.HeaderText = "codli";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            this.dataGridViewTextBoxColumn2.Resizable = System.Windows.Forms.DataGridViewTriState.True;
-            this.dataGridViewTextBoxColumn2.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
-            this.dataGridViewTextBoxColumn2.ValueMember = "codlivro";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "datadev";
-            this.dataGridViewTextBoxColumn3.HeaderText = "datadev";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(836, 433);
+            this.ClientSize = new System.Drawing.Size(836, 441);
+            this.Controls.Add(codusLabel);
+            this.Controls.Add(this.codusListBox);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.devolverliDataGridView);
@@ -446,8 +493,6 @@
             this.Controls.Add(this.empreliDataGridView);
             this.Controls.Add(controleLabel);
             this.Controls.Add(this.controleTextBox);
-            this.Controls.Add(codusLabel);
-            this.Controls.Add(this.codusTextBox);
             this.Controls.Add(dataemprestLabel);
             this.Controls.Add(this.dataemprestDateTimePicker);
             this.Controls.Add(this.emprestimoBindingNavigator);
@@ -460,10 +505,14 @@
             this.emprestimoBindingNavigator.ResumeLayout(false);
             this.emprestimoBindingNavigator.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.empreliDataGridView)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosdevolverliBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.empreliBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.devolverliBindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.devolverliDataGridView)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.usuarioBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.livrosBindingSource2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -489,7 +538,6 @@
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.ToolStripButton emprestimoBindingNavigatorSaveItem;
         private System.Windows.Forms.TextBox controleTextBox;
-        private System.Windows.Forms.TextBox codusTextBox;
         private System.Windows.Forms.DateTimePicker dataemprestDateTimePicker;
         private bibliotecaDataSetTableAdapters.empreliTableAdapter empreliTableAdapter;
         private System.Windows.Forms.BindingSource empreliBindingSource;
@@ -498,19 +546,25 @@
         private bibliotecaDataSetTableAdapters.devolverliTableAdapter devolverliTableAdapter;
         private System.Windows.Forms.BindingSource devolverliBindingSource;
         private System.Windows.Forms.DataGridView devolverliDataGridView;
+        private System.Windows.Forms.Button button2;
+        private bibliotecaDataSetTableAdapters.LivrosTableAdapter livrosTableAdapter;
+        private System.Windows.Forms.BindingSource livrosBindingSource;
+        private System.Windows.Forms.BindingSource usuarioBindingSource;
+        private bibliotecaDataSetTableAdapters.UsuarioTableAdapter usuarioTableAdapter;
+        private System.Windows.Forms.BindingSource livrosdevolverliBindingSource;
+        private System.Windows.Forms.BindingSource livrosBindingSource1;
+        private System.Windows.Forms.BindingSource livrosBindingSource2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ListBox codusListBox;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn5;
+        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn5;
         private System.Windows.Forms.DataGridViewCheckBoxColumn dataGridViewCheckBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn6;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn7;
         private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn8;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private bibliotecaDataSetTableAdapters.LivrosTableAdapter livrosTableAdapter;
-        private System.Windows.Forms.BindingSource livrosBindingSource;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn1;
-        private System.Windows.Forms.DataGridViewComboBoxColumn dataGridViewTextBoxColumn2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn dataGridViewTextBoxColumn3;
 
     }
 }

@@ -26,6 +26,8 @@ namespace WindowsFormsApplication1
 
         private void Form4_Load(object sender, EventArgs e)
         {
+            // TODO: esta linha de código carrega dados na tabela 'bibliotecaDataSet.Usuario'. Você pode movê-la ou removê-la conforme necessário.
+            this.usuarioTableAdapter.Fill(this.bibliotecaDataSet.Usuario);
             // TODO: esta linha de código carrega dados na tabela 'bibliotecaDataSet.Livros'. Você pode movê-la ou removê-la conforme necessário.
             this.livrosTableAdapter.Fill(this.bibliotecaDataSet.Livros);
             // TODO: esta linha de código carrega dados na tabela 'bibliotecaDataSet.devolverli'. Você pode movê-la ou removê-la conforme necessário.
@@ -85,6 +87,56 @@ namespace WindowsFormsApplication1
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+            Form1 F1 = new Form1();
+            F1.Show();
+            Hide();
+        }
+
+        private void devolverliDataGridView_CellFormatting(object sender, DataGridViewCellFormattingEventArgs e)
+        {
+
+            devolverliDataGridView.Rows[devolverliDataGridView.RowCount - 1].Cells["dataGridViewTextBoxColumn6"].Value = "0,00";
+            devolverliDataGridView.Rows[devolverliDataGridView.RowCount - 1].Cells["dataGridViewTextBoxColumn7"].Value = "0";
+            devolverliDataGridView.Rows[devolverliDataGridView.RowCount - 1].Cells["dataGridViewTextBoxColumn8"].Value = "0,00";
+        
+
+        }
+
+        private void devolverliDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void devolverliDataGridView_CellValidated(object sender, DataGridViewCellEventArgs e)
+        {
+            {
+                decimal total = 0;
+                for (int i = 0; i < devolverliDataGridView.RowCount - 1; i++)
+                {
+                    DataGridViewRow row = devolverliDataGridView.Rows[i];
+                    string valueA = row.Cells["dataGridViewTextBoxColumn6 "].Value.ToString();
+                    string valueB = row.Cells["dataGridViewTextBoxColumn7 "].Value.ToString();
+                    decimal valorA, valorB;
+                    if (decimal.TryParse(valueA, out valorA) && decimal.TryParse(valueB, out valorB))
+                    {
+                        row.Cells["dataGridViewTextBoxColumn8"].Value = (valorA * valorB).ToString("0.00");
+                        total += valorA * valorB;
+                       
+                    }
+                }
+
+            }
+
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click_1(object sender, EventArgs e)
         {
             Form1 F1 = new Form1();
             F1.Show();

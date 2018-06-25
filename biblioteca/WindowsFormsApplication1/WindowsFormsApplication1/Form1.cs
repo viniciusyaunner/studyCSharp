@@ -59,5 +59,47 @@ namespace WindowsFormsApplication1
             F4.Show();
             Hide();
         }
+
+        private void usuarioToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form5 F5 = new Form5();
+            F5.Show();
+            Hide();
+        }
+
+        private void livrosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form6 F6 = new Form6();
+            F6.Show();
+            Hide();
+        }
+
+        private void emprestimoToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form7 F7 = new Form7();
+            F7.Show();
+            Hide();
+        }
+
+        private void usuarioToolStripMenuItem2_Click(object sender, EventArgs e)
+        {
+            Form8 F8 = new Form8();
+            F8.Show();
+            Hide();
+        }
+
+        private void livroToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            Form9 F9 = new Form9();
+            F9.Show();
+            Hide();
+        }
+
+        private void emprestimoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Form10 F10 = new Form10();
+            F10.Show();
+            Hide();
+        }
     }
 }

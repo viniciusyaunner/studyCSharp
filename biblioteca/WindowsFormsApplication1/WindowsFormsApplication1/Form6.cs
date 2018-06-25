@@ -9,25 +9,25 @@ using System.Windows.Forms;
 
 namespace WindowsFormsApplication1
 {
-    public partial class Form5 : Form
+    public partial class Form6 : Form
     {
-        public Form5()
+        public Form6()
         {
             InitializeComponent();
         }
 
-        private void usuarioBindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        private void livrosBindingNavigatorSaveItem_Click(object sender, EventArgs e)
         {
             this.Validate();
-            this.usuarioBindingSource.EndEdit();
+            this.livrosBindingSource.EndEdit();
             this.tableAdapterManager.UpdateAll(this.bibliotecaDataSet);
 
         }
 
-        private void Form5_Load(object sender, EventArgs e)
+        private void Form6_Load(object sender, EventArgs e)
         {
-            // TODO: esta linha de código carrega dados na tabela 'bibliotecaDataSet.Usuario'. Você pode movê-la ou removê-la conforme necessário.
-            this.usuarioTableAdapter.Fill(this.bibliotecaDataSet.Usuario);
+            // TODO: esta linha de código carrega dados na tabela 'bibliotecaDataSet.Livros'. Você pode movê-la ou removê-la conforme necessário.
+            this.livrosTableAdapter.Fill(this.bibliotecaDataSet.Livros);
 
         }
 
@@ -35,14 +35,16 @@ namespace WindowsFormsApplication1
         {
             if (textBox1.Text != "")
             {
-                usuarioTableAdapter.pornome(bibliotecaDataSet.Usuario, "%" + textBox1.Text + "%");
+                livrosTableAdapter.porlivro(bibliotecaDataSet.Livros, "%" + textBox1.Text + "%");
             }
-            else {
+            else
+            {
                 try
                 {
-                    usuarioTableAdapter.Fill(bibliotecaDataSet.Usuario);
+                    livrosTableAdapter.Fill(bibliotecaDataSet.Livros);
                 }
-                catch(Exception ex) {
+                catch (Exception ex)
+                {
                     MessageBox.Show("ERRO: " + ex);
                 }
             }

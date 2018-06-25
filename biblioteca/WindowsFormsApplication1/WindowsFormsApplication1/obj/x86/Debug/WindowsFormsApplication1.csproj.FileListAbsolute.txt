@@ -37,3 +37,10 @@ E:\DS\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug
 E:\DS\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form5.resources
 E:\DS\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
 E:\DS\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.csproj.GenerateResource.Cache
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form6.resources
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form7.resources
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form8.resources
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.cache
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.compiled
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form9.resources
+E:\3º INFO\D.S\biblioteca\WindowsFormsApplication1\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form10.resources

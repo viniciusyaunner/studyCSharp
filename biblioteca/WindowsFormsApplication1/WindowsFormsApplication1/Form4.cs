@@ -87,8 +87,8 @@ namespace WindowsFormsApplication1
             for (int i = 0; i < devolverliDataGridView.RowCount - 1; i++)
             {
                 DataGridViewRow row = devolverliDataGridView.Rows[i];
-                string valueA = row.Cells["valormul "].Value.ToString();
-                string valueB = row.Cells["diasatraso "].Value.ToString();
+                string valueA = row.Cells["valormul"].Value.ToString();
+                string valueB = row.Cells["diasatraso"].Value.ToString();
                 decimal valorA, valorB;
                 if (decimal.TryParse(valueA, out valorA) && decimal.TryParse(valueB, out valorB))
                 {

@@ -67,14 +67,14 @@
             this.devolverliBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.devolverliTableAdapter = new WindowsFormsApplication1.bibliotecaDataSetTableAdapters.devolverliTableAdapter();
             this.devolverliDataGridView = new System.Windows.Forms.DataGridView();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewComboBoxColumn();
             this.dataGridViewCheckBoxColumn1 = new System.Windows.Forms.DataGridViewCheckBoxColumn();
             this.valormul = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.diasatraso = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.valortotal = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             controleLabel = new System.Windows.Forms.Label();
             codusLabel = new System.Windows.Forms.Label();
             dataemprestLabel = new System.Windows.Forms.Label();
@@ -179,7 +179,7 @@
             this.emprestimoBindingNavigator.MovePreviousItem = this.bindingNavigatorMovePreviousItem;
             this.emprestimoBindingNavigator.Name = "emprestimoBindingNavigator";
             this.emprestimoBindingNavigator.PositionItem = this.bindingNavigatorPositionItem;
-            this.emprestimoBindingNavigator.Size = new System.Drawing.Size(641, 25);
+            this.emprestimoBindingNavigator.Size = new System.Drawing.Size(613, 25);
             this.emprestimoBindingNavigator.TabIndex = 0;
             this.emprestimoBindingNavigator.Text = "bindingNavigator1";
             // 
@@ -396,25 +396,6 @@
             this.devolverliDataGridView.CellFormatting += new System.Windows.Forms.DataGridViewCellFormattingEventHandler(this.devolverliDataGridView_CellFormatting);
             this.devolverliDataGridView.CellValidated += new System.Windows.Forms.DataGridViewCellEventHandler(this.devolverliDataGridView_CellValidated);
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(538, 371);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 10;
-            this.button2.Text = "Salvar";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.Location = new System.Drawing.Point(527, 125);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(75, 23);
-            this.button3.TabIndex = 11;
-            this.button3.Text = "Voltar";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // dataGridViewTextBoxColumn4
             // 
             this.dataGridViewTextBoxColumn4.DataPropertyName = "controle";
@@ -456,11 +437,30 @@
             this.valortotal.HeaderText = "valortotal";
             this.valortotal.Name = "valortotal";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(513, 366);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 10;
+            this.button2.Text = "Salvar";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(513, 62);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 11;
+            this.button3.Text = "Voltar";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form4
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(641, 492);
+            this.ClientSize = new System.Drawing.Size(613, 491);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.devolverliDataGridView);

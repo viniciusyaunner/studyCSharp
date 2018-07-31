@@ -20,10 +20,10 @@ namespace login
         private void button1_Click(object sender, EventArgs e)
         {
             OleDbConnection conexao = new
-            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;DataSource=E:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\\3º INFO\\D.S\\login\\Dados.accdb");
             OleDbCommand comandos = new OleDbCommand();
             conexao.Open();
-            comandos.CommandText = ("select login, senha from login where login'" + textBox2 + "'");
+            comandos.CommandText = ("select login, senha from login where login='" + textBox1.Text + "' and senha='" + textBox2.Text + "'");
             comandos.Connection = conexao;
             OleDbDataReader consulta = comandos.ExecuteReader();
             if (consulta.HasRows)

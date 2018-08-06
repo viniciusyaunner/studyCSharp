@@ -20,7 +20,7 @@ namespace login
         private void button1_Click(object sender, EventArgs e)
         {
             OleDbConnection conexao = new
-            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\3º INFO\\D.S\\login\\Dados.accdb");
             OleDbCommand comandos = new OleDbCommand();
             conexao.Open();
             comandos.CommandText = ("select login, senha from login where login='" + textBox1.Text + "' and senha='" + textBox2.Text + "'");
@@ -41,6 +41,31 @@ namespace login
         {
             Application.Exit();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            String sql = "insert into login(login, senha) values ('" + textBox1.Text + "','" + textBox2.Text + "')";
+            OleDbConnection conexao = new OleDbConnection("Provider = Microsoft.ACE.OLEDB.12.0;Data Source=E:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbCommand commando = new OleDbCommand(sql, conexao);
+            try
+            {
+                conexao.Open();
+                commando.ExecuteNonQuery();
+                conexao.Close();
+                MessageBox.Show("Registro inserido com sucesso!");
+                textBox1.Text = "";
+                textBox2.Text = "";
+
+            }
+            catch
+            {
+                MessageBox.Show("Erro ao efetuar a operacao");
+            }
+        }
+
+
+
+
 
 
     }

@@ -26,7 +26,7 @@ namespace login
         private void mostrarDados() {
             string sql = "SELECT codigo,despesas,valor,data FROM despesas ORDER BY despesas";//comando SQL para buscar dados
         //cria uma conexao para buscar dados no Access
-            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\3º INFO\\D.S\\login\\Dados.accdb");
             //execulta o comando SQL 
             OleDbCommand comando = new OleDbCommand(sql, conexao);
 
@@ -69,7 +69,7 @@ namespace login
             //comando SQl para inserir um Access
             string sql = "INSERT INTO despesas(despesas,valor,data)VALUES('"+textBox1.Text+"','"+numericUpDown1.Text+"','"+maskedTextBox1.Text+"')";
             //cria um objeto de conexao
-            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\3º INFO\\D.S\\login\\Dados.accdb");
             //o objeto execulta o sql
             OleDbCommand comando = new OleDbCommand(sql, conexao);
             try
@@ -97,7 +97,7 @@ namespace login
         private void button3_Click(object sender, EventArgs e)
         {
             //criar um objeto conexao com String de conexao que vao buyscar os dados em uma base 
-            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=F:\\3º INFO\\D.S\\login\\Dados.accdb");
+            OleDbConnection conexao = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=E:\\3º INFO\\D.S\\login\\Dados.accdb");
             if (dataGridView1.SelectedRows.Count > 0)
             {
                 string codigo = dataGridView1.SelectedRows[0].Cells[0].Value.ToString();
